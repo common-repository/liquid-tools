@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+Author: LIQUID DESIGN Ltd.
+Author URI: https://lqd.jp/wp/
+*/
+.liquid-tools .delete {
+    display: block;
+    margin-top: 10px;
+    color: red;
+}
+.liquid-tools details {
+    border: 1px solid #ccc;
+    padding: 0 1rem;
+    margin: 0 0 1rem 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.liquid-tools details[open] {
+    padding-bottom: 1rem;
+}
+.liquid-tools details summary {
+    margin: 0 -1rem;
+    background: #ddd;
+    padding: .5rem 0;
+    border-radius: 5px 5px 0 0;
+    text-indent: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.liquid-tools .labels label {
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+.liquid-tools ::placeholder {
+    color: #ccc;
+}
+.liquid-tools ::-ms-input-placeholder {
+    color: #ccc;
+}

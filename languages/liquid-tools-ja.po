@@ -1,0 +1,402 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LIQUID TOOLS\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-10-22 10:45+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: LIQUID DESIGN Ltd.\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *node_modules\n"
+
+#: inc/custom_fields.php:10
+msgid "Advanced (Below Content)"
+msgstr "高度（コンテンツ下部）"
+
+#: inc/custom_fields.php:11
+msgid "Normal (Main Content)"
+msgstr "標準（メインコンテンツ）"
+
+#: inc/custom_fields.php:12
+msgid "Side (Sidebar)"
+msgstr "サイド（サイドバー）"
+
+#: inc/custom_fields.php:16
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/custom_fields.php:17
+msgid "High"
+msgstr "High"
+
+#: inc/custom_fields.php:18
+msgid "Core"
+msgstr "Core"
+
+#: inc/custom_fields.php:19
+msgid "Low"
+msgstr "Low"
+
+#: inc/custom_fields.php:47
+msgid "Add custom field"
+msgstr "カスタムフィールドを追加する"
+
+#: inc/custom_fields.php:62
+msgid "Label"
+msgstr "ラベル"
+
+#: inc/custom_fields.php:66
+msgid "Key"
+msgstr "Key（半角英数）"
+
+#: inc/custom_fields.php:70
+msgid "Content Type"
+msgstr "コンテンツの種類"
+
+#: inc/custom_fields.php:72
+msgid "Text"
+msgstr "テキスト"
+
+#: inc/custom_fields.php:73
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: inc/custom_fields.php:74
+msgid "URL"
+msgstr "URL"
+
+#: inc/custom_fields.php:75
+msgid "Email"
+msgstr "Email"
+
+#: inc/custom_fields.php:76
+msgid "Number"
+msgstr "数字"
+
+#: inc/custom_fields.php:77
+msgid "Image"
+msgstr "画像"
+
+#: inc/custom_fields.php:78
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: inc/custom_fields.php:79
+msgid "Radio"
+msgstr "ラジオボタン"
+
+#: inc/custom_fields.php:80
+msgid "Select"
+msgstr "セレクトボックス"
+
+#: inc/custom_fields.php:84
+msgid "Default Value"
+msgstr "デフォルト値"
+
+#: inc/custom_fields.php:86
+msgid ""
+"If the type is checkbox, radio, or select, you can define choices separated "
+"by “,”"
+msgstr ""
+"種類がチェックボックス、ラジオボタン、セレクトボックスの場合、選択肢を「,」"
+"で区切って定義できます。"
+
+#: inc/custom_fields.php:89
+msgid "Description"
+msgstr "説明"
+
+#: inc/custom_fields.php:93
+msgid "Note (For admin screen)"
+msgstr "備考（管理画面用）"
+
+#: inc/custom_fields.php:97
+msgid "Display Position"
+msgstr "表示位置"
+
+#: inc/custom_fields.php:105
+msgid "Priority"
+msgstr "優先度"
+
+#: inc/custom_fields.php:115 inc/taxonomies.php:73
+msgid "Apply to Post Types"
+msgstr "適用する投稿タイプ"
+
+#: inc/custom_fields.php:115 inc/others.php:17 inc/post_types.php:108
+#: inc/taxonomies.php:73
+msgid "(Multiple selections allowed)"
+msgstr "（複数選択可）"
+
+#: inc/custom_fields.php:125
+msgid "Field Background Color"
+msgstr "フィールドの背景色"
+
+#: inc/custom_fields.php:131
+msgid "Enable Repeatable Field"
+msgstr "繰り返しフィールドを有効にする"
+
+#: inc/custom_fields.php:134
+msgid "Delete this custom field"
+msgstr "このカスタムフィールドを削除する"
+
+#: inc/others.php:13
+msgid "Thumbnail images in the admin list"
+msgstr "管理画面の一覧でアイキャッチ画像"
+
+#: inc/others.php:17
+msgid "Select the post type that displays thumbnail images in the admin list"
+msgstr "管理画面の一覧でアイキャッチ画像を表示する投稿タイプを選択"
+
+#: inc/post_types.php:29
+msgid "Add Post Type"
+msgstr "投稿タイプを追加する"
+
+#: inc/post_types.php:52 inc/taxonomies.php:65
+msgid "Slug"
+msgstr "スラッグ"
+
+#: inc/post_types.php:56 inc/taxonomies.php:69
+msgid "Display Name"
+msgstr "表示名"
+
+#: inc/post_types.php:60
+msgid "Menu Position"
+msgstr "メニュー順位"
+
+#: inc/post_types.php:61
+msgid "Post:5 Page:20"
+msgstr "投稿:5 固定ページ:20"
+
+#: inc/post_types.php:64
+msgid "Menu Icon"
+msgstr "メニューアイコン"
+
+#: inc/post_types.php:64
+msgid "(List)"
+msgstr "（リスト）"
+
+#: inc/post_types.php:68
+msgid "Capability"
+msgstr "権限"
+
+#: inc/post_types.php:77
+msgid "Supports"
+msgstr "サポート"
+
+#: inc/post_types.php:80
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: inc/post_types.php:83 inc/taxonomies.php:87
+msgid "Hierarchical"
+msgstr "階層"
+
+#: inc/post_types.php:86
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/post_types.php:89
+msgid "Editor"
+msgstr "本文"
+
+#: inc/post_types.php:92 liquid-tools.php:480
+msgid "Thumbnail"
+msgstr "アイキャッチ画像"
+
+#: inc/post_types.php:95
+msgid "Revisions"
+msgstr "リビジョン"
+
+#: inc/post_types.php:98
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: inc/post_types.php:101
+msgid "Comments"
+msgstr "コメント"
+
+#: inc/post_types.php:104
+msgid "REST API"
+msgstr "REST API"
+
+#: inc/post_types.php:108
+msgid "Taxonomies"
+msgstr "タクソノミー"
+
+#: inc/post_types.php:122
+msgid "Delete this post type"
+msgstr "この投稿タイプを削除する"
+
+#: inc/taxonomies.php:46
+msgid "Add Taxonomy"
+msgstr "タクソノミーを追加する"
+
+#: inc/taxonomies.php:90
+msgid "Delete this taxonomies"
+msgstr "このタクソノミーを削除する"
+
+#: liquid-tools.php:57
+#, php-format
+msgid "New %s"
+msgstr "新規%s"
+
+#: liquid-tools.php:58 liquid-tools.php:59
+#, php-format
+msgid "Add New %s"
+msgstr "新規%sを追加"
+
+#: liquid-tools.php:60
+#, php-format
+msgid "Edit %s"
+msgstr "%sを編集"
+
+#: liquid-tools.php:61
+#, php-format
+msgid "Search %s"
+msgstr "%sを検索"
+
+#: liquid-tools.php:62
+#, php-format
+msgid "View %s"
+msgstr "%sを表示"
+
+#: liquid-tools.php:121 liquid-tools.php:172
+msgid "LIQUID TOOLS Settings"
+msgstr "LIQUID TOOLS 設定"
+
+#: liquid-tools.php:122
+msgid "LIQUID TOOLS"
+msgstr "LIQUID TOOLS"
+
+#: liquid-tools.php:132 liquid-tools.php:133 liquid-tools.php:175
+#: liquid-tools.php:393
+msgid "Custom Post Types"
+msgstr "カスタム投稿タイプ"
+
+#: liquid-tools.php:141 liquid-tools.php:142 liquid-tools.php:176
+#: liquid-tools.php:402
+msgid "Custom Taxonomies"
+msgstr "カスタムタクソノミー"
+
+#: liquid-tools.php:150 liquid-tools.php:151 liquid-tools.php:177
+#: liquid-tools.php:411
+msgid "Custom Fields"
+msgstr "カスタムフィールド"
+
+#: liquid-tools.php:159 liquid-tools.php:160 liquid-tools.php:178
+#: liquid-tools.php:420
+msgid "Others"
+msgstr "その他"
+
+#: liquid-tools.php:201
+msgid "To make the settings permanent, please \"Save\" Settings > Permalinks."
+msgstr ""
+"設定を完全に反映させるためには、設定＞パーマリンクを”保存”してください。"
+
+#: liquid-tools.php:209
+msgid "Settings"
+msgstr "設定"
+
+#: liquid-tools.php:469
+msgid "Settings saved successfully."
+msgstr "設定が正常に保存されました。"
+
+#: liquid-tools.php:559 liquid-tools.php:598 liquid-tools.php:624
+#: liquid-tools.php:651
+msgid "Remove"
+msgstr "削除"
+
+#: liquid-tools.php:563 liquid-tools.php:602 liquid-tools.php:628
+msgid "Add Field"
+msgstr "フィールドを追加"
+
+#: liquid-tools.php:644 liquid-tools.php:659
+msgid "Select Image"
+msgstr "画像を選択"
+
+#: liquid-tools.php:655
+msgid "Add Image Field"
+msgstr "画像フィールドを追加"
+
+#~ msgid "Custom Others"
+#~ msgstr "その他のカスタム"
+
+#~ msgid "Value Name"
+#~ msgstr "Value（半角英数）"
+
+#~ msgid "Post Types"
+#~ msgstr "投稿タイプ"
+
+#~ msgid "New"
+#~ msgstr "新規"
+
+#~ msgid "Delete this taxonomy"
+#~ msgstr "このタクソノミーを削除する"
+
+#~ msgid "Liquid Tools Settings"
+#~ msgstr "Liquid Tools 設定"
+
+#~ msgid "Liquid Tools"
+#~ msgstr "Liquid Tools"
+
+#~ msgid "Display Order"
+#~ msgstr "表示順"
+
+#~ msgid "Change the label on the admin page"
+#~ msgstr "管理画面のラベルを変更"
+
+#~ msgid "e.g., News"
+#~ msgstr "例 ニュース"
+
+#~ msgid "Enter the label to replace \"Post\""
+#~ msgstr "「投稿」を置き換えるラベルを入力"
+
+#~ msgid "Page Label"
+#~ msgstr "固定ページラベル"
+
+#~ msgid "e.g., Service"
+#~ msgstr "例 サービス"
+
+#~ msgid "Enter the label to replace \"Page\""
+#~ msgstr "「固定ページ」を置き換えるラベルを入力"
+
+#~ msgid "Capability Type"
+#~ msgstr "権限タイプ"
+
+#~ msgid "Error"
+#~ msgstr "エラー"
+
+#, php-format
+#~ msgid "All %s"
+#~ msgstr "%s一覧"
+
+#, php-format
+#~ msgid "No %s found"
+#~ msgstr "%sはありません"
+
+#, php-format
+#~ msgid "No %s found in Trash"
+#~ msgstr "ゴミ箱に%sはありません"
+
+#, php-format
+#~ msgid "%s Title"
+#~ msgstr "%sのタイトル"
+
+#~ msgid "Add"
+#~ msgstr "を追加"
